@@ -1,0 +1,8 @@
+# patch/diff
+*.orig
+*.rej
+*.diff
+
+# etc
+*.o
+slock
