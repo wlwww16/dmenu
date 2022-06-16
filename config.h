@@ -7,14 +7,14 @@ static int min_width = 500;		    /* minimum width when centered */
 static const unsigned int alpha = 0xf0;
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Hack:size=12",
+	"Hack:size=14",
 	"JoyPixels:pixelsize=12:antialias=true:autohint=true"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#ebdbb2", "#282828" },
-	[SchemeSel] = { "#458588", "#282828" },
+	[SchemeNorm] = { "#f8f8f2", "#272822" },
+	[SchemeSel] = { "#66d9ef", "#282828" },
 	[SchemeOut] = { "#000000", "#00ffff" },
 };
 
